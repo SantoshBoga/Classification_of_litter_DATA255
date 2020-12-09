@@ -21,16 +21,19 @@ of the application displays the image along with classified label and prediction
 
 ## Steps to run the application
 0. Clone the repository
-1. Run GarbageClassification.ipynb to train and download the model.
-2. Up the backend server i.e app.py python file by running it 
-	$python app.py
+1. Run GarbageClassification.ipynb to train and download the trained model.
+2. Up the backend server by navigating to base_react_app/src/MLOutputs and running app.py python file 
+	 *$python app.py*
 3. Run the front-end React Server in the directory of base_react_app by executing the command 
-	$npm i 
+	 *$npm i *
 	to install the node modules
 4. After installing the node modules run the following command to start the front-end server
-	$npm start
+	*$npm start*
 5. The front-end server redirects to http://localhost:3000 there you can upload the image you want to classify which displays the 
 image along with the classified label and prediction probability
+
+## Sample Output
+<img width="900" alt="sample output" src="https://github.com/SantoshBoga/Classification_of_litter_DATA255/blob/main/sample_output.JPG">
 
 ## Contributors
 Sai Santosh Boga
